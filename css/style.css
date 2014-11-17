@@ -1,0 +1,39 @@
+section {
+    display: block;
+}
+nav {
+    display: block;
+}
+header {
+    display: block;
+}
+
+nav {
+    background-color: white;
+}
+.head {
+    background-color: aliceblue;
+}
+#faq {
+    background-color: aliceblue;
+}
+
+#curriculum {
+    background-color: #000000;
+    color: white;
+}
+
+#schedule {
+    background-color: white;
+}
+
+#instructor {
+    background-color: grey;
+}
+
+ul li a {
+    font-weight: 400;
+}
+ul li p {
+    font-style: italic;
+}
