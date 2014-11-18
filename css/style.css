@@ -1,6 +1,10 @@
 section {
     display: block;
 }
+
+h2 {
+    text-align: center;
+}
 nav {
     display: block;
 }
@@ -28,12 +32,13 @@ nav {
 }
 
 #instructor {
-    background-color: grey;
+    background-color: lightgray;
 }
 
-ul li a {
-    font-weight: 400;
+#instructor article {
+    border: 1px ;
 }
+
 ul li p {
     font-style: italic;
 }
