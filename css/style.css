@@ -4,15 +4,20 @@ h1 {
     color: white;
 }
 
-img {
-    align-content: center;
-}
-header p {
+
+header {
     color: white;
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-section {
-    height: 700px;
+
+header p {
+    text-decoration: underline;
+    font-weight: bold;
+}
+header section {
+    height: 100vh;
 }
 
 h2 {
@@ -30,12 +35,18 @@ title {
 }
 
 #faq {
-    background-color: aliceblue;
+    background-color: orangered;
+    font-family: oswald sans-serif;
 }
 .faq-list {
     width: 500px;
-    background-color: #000000;
-    color: white;
+    background-color: rgba(0,0,0, 0.5);
+    font-family: oswald, sans sans-serif;
+    color: black;
+}
+
+#faq p {
+    line-height: 2;
 }
 #curriculum {
     background-color: #000000;
@@ -51,17 +62,9 @@ title {
     background-color: lightgray;
 }
 
-#instructor article {
-    border: 1px dotted ;
-}
-
 p.question {
     font-weight: bold;
 }
 p.answer {
     font-style: italic;
-}
-
-article.p {
-    text-decoration: overline;
 }
