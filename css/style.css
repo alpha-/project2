@@ -1,31 +1,47 @@
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+img {
+    align-content: center;
+}
+header p {
+    color: white;
+    text-align: center;
+}
 section {
-    display: block;
+    height: 700px;
 }
 
 h2 {
     text-align: center;
 }
 nav {
-    display: block;
-}
-header {
-    display: block;
-}
-
-nav {
     background-color: white;
 }
 .head {
-    background-color: aliceblue;
+    background-image: url("http://www.decodemtl.com/assets/images/laptop.jpg");
 }
+title {
+    font-weight: bold;
+    font-style: inherit;
+}
+
 #faq {
     background-color: aliceblue;
 }
-
+.faq-list {
+    width: 500px;
+    background-color: #000000;
+    color: white;
+}
 #curriculum {
     background-color: #000000;
     color: white;
 }
+
 
 #schedule {
     background-color: white;
@@ -36,9 +52,16 @@ nav {
 }
 
 #instructor article {
-    border: 1px ;
+    border: 1px dotted ;
 }
 
-ul li p {
+p.question {
+    font-weight: bold;
+}
+p.answer {
     font-style: italic;
+}
+
+article.p {
+    text-decoration: overline;
 }
