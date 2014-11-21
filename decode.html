@@ -3,26 +3,22 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>DecodeMTL</title>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/style.css"/>
-    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 </head>
+<body>
 
-<body link="red" alink="red" vlink="red">
-
-<section class="head" >
-<header >
+<header id="main-header">
     <h1>DecodeMTL</h1>
     <img src="logo.png" alt="DecodeMTL Logo">
     <p>
         Learn front-end web development in 8 weeks
     </p>
 </header>
-</section>
 
-<section>
 <nav>
-    <ul>
+    <ul id="main-navigation">
         <li><a href="#faq">FAQ</a></li>
         <li><a href="#curriculum">Curriculum</a></li>
         <li><a href="#schedule">Schedule</a></li>
@@ -30,7 +26,6 @@
     </ul>
 </nav>
 
-    </section>
 
 <section id="faq">
     <h2>FAQ</h2>
@@ -58,41 +53,42 @@
 <section id="curriculum">
     <h2>Course curriculum</h2>
     <ol>
-        <li>Introduction</li>
-    </ol>
-    <ul>
-        <li>WebStorm and Chrome</li>
-        <li>Informal HTML intro</li>
-    </ul>
-    <ol start="2">
-        <li>HTML</li>
-    </ol>
-    <ul>
-        <li>Semantic Tags</li>
-        <li>Discussion: HTML5</li>
-    </ul>
-    <ol start="3">
-        <li>CSS</li>
-    </ol>
-    <ul>
-        <li>Selectors</li>
-        <li>Inheritance</li>
-    </ul>
-    <ol start="4">
-        <li>Javascript</li>
-    </ol>
-    <ul>
-        <li>Basic Javascript</li>
-        <li>jQuery</li>
-    </ul>
-    <ol start="5">
-        <li>Responsive Framework: Foundation</li>
-        <li>Project Week</li>
-    </ol>
+        <li>
+            <span class="curriculum-section-title">Introduction</span>
+        <ul>
+            <li>Tools: WebStorm and Chrome</li>
+            <li>Informal HTML intro</li>
+            </ul>
+        </li>
+        <li>
+            <span class="curriculum-section-title">HTML</span>
+            <ul>
+                <li>Semantic tags</li>
+                <li>Discussion: HTML5</li>
+            </ul>
+        </li>
+        <li>
+            <span class="curriculum-section-title">CSS</span>
+        <ul>
+            <li>Selectors</li>
+            <li>Inheritance</li>
+            </ul>
+            </li>
+        <li>
+            <span class="curriculum-section-title">Javascript</span>
+            <ul>
+                <li>Basic javascript</li>
+                <li>jQuery</li>
+            </ul>
+        </li>
+        <li><span class="curriculum-section-title">Responsive Framework: Foundation</span></li>
+        <li>
+            Project Week
+            <p>During project week, students will work on their own project under the guidance of their instructor</p>
+        </li>
+        </ol>
+    </section>
 
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During project week, students will work on their own
-    projects under the guidance of their instructor.
-</section>
 
 <section id="schedule">
     <h2>Schedule</h2>
@@ -109,7 +105,7 @@
             <td>18:30 - 20:30</td>
         </tr>
         <tr>
-            <td>Wednesday </td>
+            <td>Wednesday</td>
             <td>12:30 - 14:30</td>
         </tr>
         </tbody>
@@ -120,7 +116,8 @@
     <h2>Instructor</h2>
     <article>
         <h3>Ziad Saab</h3>
-        <p>Ziad is currently a freelance full-stack web developer with 12 years of experience. He obtained his
+        <p>
+            Ziad is currently a freelance full-stack web developer with 12 years of experience. He obtained his
            B.Sc. from McGill University. His most recent projects include teaching
         <a href="http://ladieslearningcode.com">"Ladies Learning Code"</a>, a
         <a href="http://zurb.foundation.com">Zurb Foundation</a> workshop and various open-source projects.

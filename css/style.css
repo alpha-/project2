@@ -22,6 +22,8 @@ header section {
 
 h2 {
     text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
 }
 nav {
     background-color: white;
@@ -68,3 +70,4 @@ p.question {
 p.answer {
     font-style: italic;
 }
+
