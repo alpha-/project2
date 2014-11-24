@@ -1,73 +1,99 @@
+/*General Styles*/
 
-h1 {
-    text-align: center;
-    color: white;
+a {
+    color: orangered;
 }
 
-
-header {
-    color: white;
+header, section {
+    min-height: 100vh;
+}
+section, h2 {
     text-align: center;
+    font-family: oswald, sans sans-serif;
+    font-size: 2em;
+}
+/* header */
+
+#main-header {
+    text-align: center;
+    color: white;
+    background-color: #000000;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover ;
+    font-style: inherit;
+}
+#main-header h1 {
+    font-size: 2em;
 }
 
-header p {
+#main-header p {
+    font-size: 2em;
     text-decoration: underline;
     font-weight: bold;
 }
-header section {
-    height: 100vh;
-}
 
-h2 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 2em;
+/* nav */
+
+#main-nav {
+    list-style-type: none;
+    
 }
-nav {
-    background-color: white;
-}
-.head {
-    background-image: url("http://www.decodemtl.com/assets/images/laptop.jpg");
-}
-title {
+#main-nav {
     font-weight: bold;
-    font-style: inherit;
 }
-
+/* faq */
 #faq {
-    background-color: orangered;
-    font-family: oswald sans-serif;
+    background-color: aliceblue;
 }
 .faq-list {
     width: 500px;
-    background-color: rgba(0,0,0, 0.5);
-    font-family: oswald, sans sans-serif;
-    color: black;
-}
+    background-color:aliceblue;
+    list-style-type: none;
+    display: block;
 
+}
 #faq p {
     line-height: 2;
 }
+#faq .question {
+    font-weight: bold;
+    position: relative ;
+}
+#faq .answer {
+    font-style: italic;
+    font-weight: 100;
+    position: relative;
+}
+
+/* Curriculum */
+
 #curriculum {
     background-color: #000000;
     color: white;
+    display: inline-block;
+}
+ .curriculum-section-title {
+    background-color: rgba(0.0.0.0.5);
+     font-style: normal;
+     font-weight: 100;
 }
 
+ /* Schedule */
 
-#schedule {
+#Schedule {
     background-color: white;
+    color: #000000;
 }
+
+ /* Instructor */
 
 #instructor {
     background-color: lightgray;
 }
 
-p.question {
-    font-weight: bold;
+#instructor a {
+    text-decoration: underline;
 }
-p.answer {
-    font-style: italic;
+.photo {
+ align-content: ;
 }
-
