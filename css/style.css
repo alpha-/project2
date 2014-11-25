@@ -2,70 +2,95 @@
 
 a {
     color: orangered;
+    text-decoration: none;
 }
 
 header, section {
-    min-height: 100vh;
+    overflow: hidden;
 }
 section h2 {
     text-align: center;
     font-family: oswald, sans sans-serif;
     font-size: 2em;
+    text-transform: uppercase;
 }
 /* header */
 
 #main-header {
     text-align: center;
     color: white;
-    background-image: url("img");
+    background-image: url("../img/laptop.jpg");
     background-repeat: no-repeat;
     background-size:cover ;
     font-style: inherit;
+    position: relative;
+    padding: 150px 0;
 }
 #main-header h1 {
-    font-size: 2em;
+    padding-top: 50px;
+    font-size: 4em;
 }
 
-#main-header p {
+#main-header p.duration {
     font-size: 2em;
     text-decoration: underline;
     font-weight: bold;
+    font-variant: small-caps;
 }
+#main-header p.location {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    margin: 0;
+    background-color: white;
+    color: #000000;
+    font-weight: bold;
+    padding: 10px;
 
+
+}
 /* nav */
 
 #main-nav {
-    list-style-type: none;
-    
-}
-#main-nav {
     font-weight: bold;
+    list-style-type: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    min-height: 0;
+    width: 100%;
+}
+#main-nav li {
+    display: inline-block;
+}
+
+#main-nav a {
+    border: 1px solid white;
+    padding: 5px;
+    text-decoration: none;
 }
 /* faq */
 #faq {
     background-color: aliceblue;
 }
 .faq-list {
-    width: 500px;
-    background-color:aliceblue;
-    list-style-type: none;
-    padding: 0;
+    list-style: none;
+    text-align: center;
     }
 
 .faq-list li {
+    display: inline-block;
+    width: 25%;
 }
-
 #faq p {
-    line-height: 2;
+    line-height: 1.5;
 }
 #faq .question {
     font-weight: bold;
-    position: relative ;
 }
 #faq .answer {
     font-style: italic;
-    font-weight: 100;
-    position: relative;
 }
 
 /* Curriculum */
@@ -73,6 +98,10 @@ section h2 {
 #curriculum {
     background-color: #000000;
     color: #000000;
+}
+#curriculum h2 {
+    color: white;
+    font-weight: bold;
 }
 .curriculum-list {
     background-color: grey;
